@@ -49,8 +49,6 @@ def status_write():
 try:
     fetch_json("config.json", "developer")
 except:
-    rpid = fetch_json("config.json", "rpid")
-    print(f"[bold cyan][INFO][/bold cyan] [bold white] To add Image assets please head over to https://discord.com/developers/applications/{rpid}/rich-presence/assets[/bold white]")
     write_json()
 
 try:
